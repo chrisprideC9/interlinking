@@ -125,7 +125,7 @@ def to_excel(df_cleaned, df_unique):
     return processed_data
 
 def main():
-    st.title("CSV Processor with Streamlit")
+    st.title("Interlinking C9")
     st.write("""
         Upload a CSV file, and this app will process it to extract the main domain,
         clean the data, and provide a downloadable Excel file with the results.

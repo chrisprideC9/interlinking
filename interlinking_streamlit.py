@@ -125,10 +125,12 @@ def to_excel(df_cleaned, df_unique):
     return processed_data
 
 def main():
-    st.title("Interlinking C9")
+    st.title("Interlinking C9 V1.0")
     st.write("""
         Upload a CSV file, and this app will process it to extract the main domain,
         clean the data, and provide a downloadable Excel file with the results.
+        
+        It will show all of the internal anchors and as well as show the number of inlinks pointing to a page.
     """)
 
     uploaded_file = st.file_uploader("Choose a CSV file", type=["csv"])
